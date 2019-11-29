@@ -22,3 +22,11 @@ resource "aws_instance" "ptfe" {
   }
 
   }
+
+  variable "access_key" {
+  type = string
+}
+
+ variable "secret_key" {
+  type = string
+}
